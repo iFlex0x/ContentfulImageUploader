@@ -10,16 +10,7 @@ a vencord plugin that lets you upload discord images straight to contentful with
 - works with contentful's content management api
 
 ## installation
-
-1. put this plugin in your vencord userplugins folder:
-   ```
-   Vencord/src/userplugins/contentfulImageUploader/
-   ```
-
-2. restart discord completely (this is important!)
-
-3. turn on the plugin in vencord settings
-
+https://discord.com/channels/1015060230222131221/1257038407503446176
 ## setup
 
 you'll need to configure your contentful stuff first:
@@ -59,27 +50,6 @@ the plugin will:
 - vencord discord client mod
 - contentful account with content management api access
 - properly configured content model in contentful
-
-## troubleshooting
-
-- **"native helper module not found"**: restart discord completely after installing
-- **"plugin is not configured"**: fill in all the fields in plugin settings
-- **upload fails**: check your cma token permissions and make sure your model id is right
-
-## development
-
-this plugin uses:
-- typescript for type safety
-- vencord's plugin api for discord stuff
-- contentful's content management api for uploads
-- electron ipc for secure native operations
-
-### dev setup
-
-1. **no build step needed** - vencord plugins are loaded directly
-2. **type checking**: run `npm run type-check` to check types
-3. **linting**: run `npm run lint` to check code quality
-4. **testing**: restart discord after changes to see them
 
 ### vencord dev environment
 
